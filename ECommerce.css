@@ -233,17 +233,52 @@ img.card-img-top{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     height: 100px;
-    color: white;
+    color: black;
+    
     background: rgb(255,255,255);
-    background: linear-gradient(353deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(159,159,159,1) 100%);
+    background: linear-gradient(353deg, rgba(255,255,255,1) 0%, rgba(159,159,159,1) 50%, rgba(159,159,159,1) 100%);
     vertical-align:bottom
   }
-  @media screen and (max-width: 480px) {
-    body {
-      background-color: green;
-    }
-    a.nav-link{
-      display: list-item;
-      color: red;
-    }
+  .fixed-bottom.navbar-light.bg-light{
+    display:none;
+   }
+  @media only screen and (max-width: 992px)  {
+   div.card-body{
+     display: grid;
+   }
+   a.btn.btn-outline-dark{
+     margin-top: 10px;
+   }
+   p#sale_timer{
+     margin: 0%;
+    font-size: medium;
+   }
+   .fixed-bottom.navbar-light.bg-light{
+    display: block;
+   }
+  
+.abc{
+  display: none;
+}  
+html, body {
+ 
+  margin-bottom: 80px;
+}
+
+}
+@media only screen and (max-width: 1024px)  {
+  div.card-body{
+    display: grid;
   }
+  a.btn.btn-outline-dark{
+    margin-top: 10px;
+  }
+ 
+ }
+ html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+nav.navbar.fixed-bottom.navbar-light.bg-light{
+  display: inline;
+}
