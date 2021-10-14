@@ -627,9 +627,11 @@
             </div>
           <script>
             function changeText(id) {
+                id.style.color = "green"
+                id.style.fontWeight = "bold"
               if(id.innerHTML == "Already in the Cart")  id.innerHTML = "Already in the Cart";
               else if (id.innerHTML == "Added to Cart") id.innerHTML = "Already in the Cart";
-              else id.innerHTML = "Added to Cart";
+              else id.innerHTML = "Added to Cart" ;
             }
             </script>
              <script>
