@@ -242,6 +242,25 @@ img.card-img-top{
   .fixed-bottom.navbar-light.bg-light{
     display:none;
    }
+  h4.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+  }
+  p.card-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+  }
+  a.btn-outline-dark{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+  }
+  div.pt-5.footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  h3.mb-3 {
+    font-family: 'Times New Roman', Times, serif;
+  }
   @media only screen and (max-width: 992px)  {
    div.card-body{
      display: grid;
